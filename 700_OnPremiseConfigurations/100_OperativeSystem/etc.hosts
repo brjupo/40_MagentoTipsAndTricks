@@ -1,0 +1,36 @@
+Solo era agregar la URL al /etc/hosts
+
+127.0.0.1 my.site.com.mx
+
+Después de eso, puedes hacer pruebas con estos comandos desde el servidor
+
+
+
+Archivos JSs
+curl -H "Accept-Encoding: gzip" -I https://mag247.com/static/version1753403404/frontend/mag247/mytheme/es_MX/mage/common.min.js --insecure
+curl -H "Accept-Encoding: gzip" -I https://mag247.com/static/version1753403404/frontend/mag247/mytheme/es_MX/requirejs/require.min.js --insecure
+curl -H "Accept-Encoding: gzip" -I https://mag247.com/static/version1753403404/frontend/mag247/mytheme/es_MX/mage/requirejs/mixins.min.js --insecure
+curl -H "Accept-Encoding: gzip" -I https://mag247.com/static/version1753403404/frontend/mag247/mytheme/es_MX/requirejs-config.min.js --insecure
+
+
+Archivos CSSs
+curl -H "Accept-Encoding: gzip" -I https://mag247.com/static/version1753403404/frontend/mag247/mytheme/es_MX/css/styles-l.min.css --insecure
+curl -H "Accept-Encoding: gzip" -I https://mag247.com/static/version1753403404/frontend/mag247/mytheme/es_MX/css/print.min.css --insecure
+
+
+
+La respuesta vendrá con GZIP
+
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Wed, 30 Jul 2025 00:37:26 GMT
+Content-Type: application/javascript; charset=UTF-8
+Last-Modified: Mon, 28 Jul 2025 22:36:55 GMT
+Connection: keep-alive
+Vary: Accept-Encoding
+ETag: W/"6887fb87-674c"
+Expires: Thu, 30 Jul 2026 00:37:26 GMT
+Cache-Control: max-age=31536000
+Cache-Control: public
+X-Frame-Options: SAMEORIGIN
+Content-Encoding: gzip

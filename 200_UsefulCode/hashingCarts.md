@@ -10,9 +10,9 @@
      * We need to consider the following variables to successfully HASH UNIQUE responses
      * Change of products
      * Change of quantities
-     * Change of shipping method [CEDIS - Transporter]
-     * Change of Transporters shipping option [Ocurre or Domicilio]
-     * Change of Transporters - Ocurre - Punto Recepción
+     * Change of shipping method 
+     * Change of Transporters shipping option
+     * Change of Transporters reception point
      *
      * Also, we need to consider a timeout for these hashes.
      * TIMEOUT =  1 Second
@@ -49,7 +49,6 @@
                 $result = $this->getProductPrices($step, $quote);
                 if (empty($result) || $result['CONSULTA_PRECIO']['MENSAJE_RET']['TIPO'] == "E") {
                     // Variable used for CART
-                    // app/design/frontend/WolfSellers/vde/Magento_Checkout/templates/onepage/link.phtml::isValidSapPrices
                     $this->_checkoutSession->setSapPrices(false);
                 } else {
                     // Save Hash

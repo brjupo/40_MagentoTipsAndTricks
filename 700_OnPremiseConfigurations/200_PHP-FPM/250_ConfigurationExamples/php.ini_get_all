@@ -1,0 +1,2793 @@
+:~$ php vars.php
+
+```php
+<?php
+echo "<pre>";
+print_r($_SERVER);
+echo "</pre>";
+echo PHP_EOL;
+print_r(ini_get_all());
+
+// Or using var_dump for more detailed information including data types
+// echo "<pre>";
+// var_dump($_SERVER);
+// echo "</pre>";
+?>
+```
+
+
+Array
+(
+    [allow_url_fopen] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 4
+        )
+
+    [allow_url_include] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 4
+        )
+
+    [arg_separator.input] => Array
+        (
+            [global_value] => &
+            [local_value] => &
+            [access] => 6
+        )
+
+    [arg_separator.output] => Array
+        (
+            [global_value] => &
+            [local_value] => &
+            [access] => 7
+        )
+
+    [assert.active] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 7
+        )
+
+    [assert.bail] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [assert.callback] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [assert.exception] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 7
+        )
+
+    [assert.warning] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 7
+        )
+
+    [auto_append_file] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 6
+        )
+
+    [auto_detect_line_endings] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [auto_globals_jit] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 6
+        )
+
+    [auto_prepend_file] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 6
+        )
+
+    [bcmath.scale] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [browscap] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 4
+        )
+
+    [cli.pager] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [cli.prompt] => Array
+        (
+            [global_value] => \b \>
+            [local_value] => \b \>
+            [access] => 7
+        )
+
+    [curl.cainfo] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 4
+        )
+
+    [date.default_latitude] => Array
+        (
+            [global_value] => 31.7667
+            [local_value] => 31.7667
+            [access] => 7
+        )
+
+    [date.default_longitude] => Array
+        (
+            [global_value] => 35.2333
+            [local_value] => 35.2333
+            [access] => 7
+        )
+
+    [date.sunrise_zenith] => Array
+        (
+            [global_value] => 90.833333
+            [local_value] => 90.833333
+            [access] => 7
+        )
+
+    [date.sunset_zenith] => Array
+        (
+            [global_value] => 90.833333
+            [local_value] => 90.833333
+            [access] => 7
+        )
+
+    [date.timezone] => Array
+        (
+            [global_value] => UTC
+            [local_value] => UTC
+            [access] => 7
+        )
+
+    [default_charset] => Array
+        (
+            [global_value] => UTF-8
+            [local_value] => UTF-8
+            [access] => 7
+        )
+
+    [default_mimetype] => Array
+        (
+            [global_value] => text/html
+            [local_value] => text/html
+            [access] => 7
+        )
+
+    [default_socket_timeout] => Array
+        (
+            [global_value] => 60
+            [local_value] => 60
+            [access] => 7
+        )
+
+    [disable_classes] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 4
+        )
+
+    [disable_functions] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 4
+        )
+
+    [display_errors] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [display_startup_errors] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [doc_root] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 4
+        )
+
+    [docref_ext] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [docref_root] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [enable_dl] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 4
+        )
+
+    [enable_post_data_reading] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 6
+        )
+
+    [error_append_string] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [error_log] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [error_log_mode] => Array
+        (
+            [global_value] => 0644
+            [local_value] => 0644
+            [access] => 7
+        )
+
+    [error_prepend_string] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [error_reporting] => Array
+        (
+            [global_value] => 22527
+            [local_value] => 22527
+            [access] => 7
+        )
+
+    [exif.decode_jis_intel] => Array
+        (
+            [global_value] => JIS
+            [local_value] => JIS
+            [access] => 7
+        )
+
+    [exif.decode_jis_motorola] => Array
+        (
+            [global_value] => JIS
+            [local_value] => JIS
+            [access] => 7
+        )
+
+    [exif.decode_unicode_intel] => Array
+        (
+            [global_value] => UCS-2LE
+            [local_value] => UCS-2LE
+            [access] => 7
+        )
+
+    [exif.decode_unicode_motorola] => Array
+        (
+            [global_value] => UCS-2BE
+            [local_value] => UCS-2BE
+            [access] => 7
+        )
+
+    [exif.encode_jis] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [exif.encode_unicode] => Array
+        (
+            [global_value] => ISO-8859-15
+            [local_value] => ISO-8859-15
+            [access] => 7
+        )
+
+    [expose_php] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 4
+        )
+
+    [extension_dir] => Array
+        (
+            [global_value] => /usr/lib/php/20220829
+            [local_value] => /usr/lib/php/20220829
+            [access] => 4
+        )
+
+    [ffi.enable] => Array
+        (
+            [global_value] => preload
+            [local_value] => preload
+            [access] => 4
+        )
+
+    [ffi.preload] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 4
+        )
+
+    [fiber.stack_size] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [file_uploads] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 4
+        )
+
+    [filter.default] => Array
+        (
+            [global_value] => unsafe_raw
+            [local_value] => unsafe_raw
+            [access] => 6
+        )
+
+    [filter.default_flags] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 6
+        )
+
+    [from] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [gd.jpeg_ignore_warning] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 7
+        )
+
+    [hard_timeout] => Array
+        (
+            [global_value] => 2
+            [local_value] => 2
+            [access] => 4
+        )
+
+    [highlight.comment] => Array
+        (
+            [global_value] => #FF8000
+            [local_value] => #FF8000
+            [access] => 7
+        )
+
+    [highlight.default] => Array
+        (
+            [global_value] => #0000BB
+            [local_value] => #0000BB
+            [access] => 7
+        )
+
+    [highlight.html] => Array
+        (
+            [global_value] => #000000
+            [local_value] => #000000
+            [access] => 7
+        )
+
+    [highlight.keyword] => Array
+        (
+            [global_value] => #007700
+            [local_value] => #007700
+            [access] => 7
+        )
+
+    [highlight.string] => Array
+        (
+            [global_value] => #DD0000
+            [local_value] => #DD0000
+            [access] => 7
+        )
+
+    [html_errors] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [iconv.input_encoding] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [iconv.internal_encoding] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [iconv.output_encoding] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [igbinary.compact_strings] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 7
+        )
+
+    [ignore_repeated_errors] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [ignore_repeated_source] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [ignore_user_abort] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [implicit_flush] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 7
+        )
+
+    [include_path] => Array
+        (
+            [global_value] => .:/usr/share/php
+            [local_value] => .:/usr/share/php
+            [access] => 7
+        )
+
+    [input_encoding] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [internal_encoding] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [intl.default_locale] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [intl.error_level] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [intl.use_exceptions] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [log_errors] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 7
+        )
+
+    [mail.add_x_header] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 6
+        )
+
+    [mail.force_extra_parameters] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 6
+        )
+
+    [mail.log] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 6
+        )
+
+    [mail.mixed_lf_and_crlf] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 6
+        )
+
+    [max_execution_time] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [max_file_uploads] => Array
+        (
+            [global_value] => 20
+            [local_value] => 20
+            [access] => 6
+        )
+
+    [max_input_nesting_level] => Array
+        (
+            [global_value] => 64
+            [local_value] => 64
+            [access] => 6
+        )
+
+    [max_input_time] => Array
+        (
+            [global_value] => -1
+            [local_value] => -1
+            [access] => 6
+        )
+
+    [max_input_vars] => Array
+        (
+            [global_value] => 200000
+            [local_value] => 200000
+            [access] => 6
+        )
+
+    [max_multipart_body_parts] => Array
+        (
+            [global_value] => -1
+            [local_value] => -1
+            [access] => 6
+        )
+
+    [mbstring.detect_order] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [mbstring.encoding_translation] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 6
+        )
+
+    [mbstring.http_input] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [mbstring.http_output] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [mbstring.http_output_conv_mimetypes] => Array
+        (
+            [global_value] => ^(text/|application/xhtml\+xml)
+            [local_value] => ^(text/|application/xhtml\+xml)
+            [access] => 7
+        )
+
+    [mbstring.internal_encoding] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [mbstring.language] => Array
+        (
+            [global_value] => neutral
+            [local_value] => neutral
+            [access] => 7
+        )
+
+    [mbstring.regex_retry_limit] => Array
+        (
+            [global_value] => 1000000
+            [local_value] => 1000000
+            [access] => 7
+        )
+
+    [mbstring.regex_stack_limit] => Array
+        (
+            [global_value] => 100000
+            [local_value] => 100000
+            [access] => 7
+        )
+
+    [mbstring.strict_detection] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [mbstring.substitute_character] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [mcrypt.algorithms_dir] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [mcrypt.modes_dir] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [memory_limit] => Array
+        (
+            [global_value] => -1
+            [local_value] => -1
+            [access] => 7
+        )
+
+    [mysqli.allow_local_infile] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 4
+        )
+
+    [mysqli.allow_persistent] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 4
+        )
+
+    [mysqli.default_host] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [mysqli.default_port] => Array
+        (
+            [global_value] => 3306
+            [local_value] => 3306
+            [access] => 7
+        )
+
+    [mysqli.default_pw] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [mysqli.default_socket] => Array
+        (
+            [global_value] => /var/run/mysqld/mysqld.sock
+            [local_value] => /var/run/mysqld/mysqld.sock
+            [access] => 7
+        )
+
+    [mysqli.default_user] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [mysqli.local_infile_directory] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 4
+        )
+
+    [mysqli.max_links] => Array
+        (
+            [global_value] => -1
+            [local_value] => -1
+            [access] => 4
+        )
+
+    [mysqli.max_persistent] => Array
+        (
+            [global_value] => -1
+            [local_value] => -1
+            [access] => 4
+        )
+
+    [mysqli.rollback_on_cached_plink] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 4
+        )
+
+    [mysqlnd.collect_memory_statistics] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 4
+        )
+
+    [mysqlnd.collect_statistics] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 7
+        )
+
+    [mysqlnd.debug] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 4
+        )
+
+    [mysqlnd.log_mask] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [mysqlnd.mempool_default_size] => Array
+        (
+            [global_value] => 16000
+            [local_value] => 16000
+            [access] => 7
+        )
+
+    [mysqlnd.net_cmd_buffer_size] => Array
+        (
+            [global_value] => 4096
+            [local_value] => 4096
+            [access] => 7
+        )
+
+    [mysqlnd.net_read_buffer_size] => Array
+        (
+            [global_value] => 32768
+            [local_value] => 32768
+            [access] => 7
+        )
+
+    [mysqlnd.net_read_timeout] => Array
+        (
+            [global_value] => 86400
+            [local_value] => 86400
+            [access] => 7
+        )
+
+    [mysqlnd.sha256_server_public_key] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 2
+        )
+
+    [mysqlnd.trace_alloc] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 4
+        )
+
+    [odbc.allow_persistent] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 4
+        )
+
+    [odbc.check_persistent] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 4
+        )
+
+    [odbc.default_cursortype] => Array
+        (
+            [global_value] => 3
+            [local_value] => 3
+            [access] => 7
+        )
+
+    [odbc.default_db] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [odbc.default_pw] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [odbc.default_user] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [odbc.defaultbinmode] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 7
+        )
+
+    [odbc.defaultlrl] => Array
+        (
+            [global_value] => 4096
+            [local_value] => 4096
+            [access] => 7
+        )
+
+    [odbc.max_links] => Array
+        (
+            [global_value] => -1
+            [local_value] => -1
+            [access] => 4
+        )
+
+    [odbc.max_persistent] => Array
+        (
+            [global_value] => -1
+            [local_value] => -1
+            [access] => 4
+        )
+
+    [opcache.blacklist_filename] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 4
+        )
+
+    [opcache.consistency_checks] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [opcache.dups_fix] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [opcache.enable] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 7
+        )
+
+    [opcache.enable_cli] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 4
+        )
+
+    [opcache.enable_file_override] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 4
+        )
+
+    [opcache.error_log] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 4
+        )
+
+    [opcache.file_cache] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 4
+        )
+
+    [opcache.file_cache_consistency_checks] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 4
+        )
+
+    [opcache.file_cache_only] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 4
+        )
+
+    [opcache.file_update_protection] => Array
+        (
+            [global_value] => 2
+            [local_value] => 2
+            [access] => 7
+        )
+
+    [opcache.force_restart_timeout] => Array
+        (
+            [global_value] => 180
+            [local_value] => 180
+            [access] => 4
+        )
+
+    [opcache.huge_code_pages] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 4
+        )
+
+    [opcache.interned_strings_buffer] => Array
+        (
+            [global_value] => 8
+            [local_value] => 8
+            [access] => 4
+        )
+
+    [opcache.jit] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [opcache.jit_bisect_limit] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [opcache.jit_blacklist_root_trace] => Array
+        (
+            [global_value] => 16
+            [local_value] => 16
+            [access] => 7
+        )
+
+    [opcache.jit_blacklist_side_trace] => Array
+        (
+            [global_value] => 8
+            [local_value] => 8
+            [access] => 7
+        )
+
+    [opcache.jit_buffer_size] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 4
+        )
+
+    [opcache.jit_debug] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [opcache.jit_hot_func] => Array
+        (
+            [global_value] => 127
+            [local_value] => 127
+            [access] => 4
+        )
+
+    [opcache.jit_hot_loop] => Array
+        (
+            [global_value] => 64
+            [local_value] => 64
+            [access] => 4
+        )
+
+    [opcache.jit_hot_return] => Array
+        (
+            [global_value] => 8
+            [local_value] => 8
+            [access] => 4
+        )
+
+    [opcache.jit_hot_side_exit] => Array
+        (
+            [global_value] => 8
+            [local_value] => 8
+            [access] => 7
+        )
+
+    [opcache.jit_max_exit_counters] => Array
+        (
+            [global_value] => 8192
+            [local_value] => 8192
+            [access] => 4
+        )
+
+    [opcache.jit_max_loop_unrolls] => Array
+        (
+            [global_value] => 8
+            [local_value] => 8
+            [access] => 7
+        )
+
+    [opcache.jit_max_polymorphic_calls] => Array
+        (
+            [global_value] => 2
+            [local_value] => 2
+            [access] => 7
+        )
+
+    [opcache.jit_max_recursive_calls] => Array
+        (
+            [global_value] => 2
+            [local_value] => 2
+            [access] => 7
+        )
+
+    [opcache.jit_max_recursive_returns] => Array
+        (
+            [global_value] => 2
+            [local_value] => 2
+            [access] => 7
+        )
+
+    [opcache.jit_max_root_traces] => Array
+        (
+            [global_value] => 1024
+            [local_value] => 1024
+            [access] => 4
+        )
+
+    [opcache.jit_max_side_traces] => Array
+        (
+            [global_value] => 128
+            [local_value] => 128
+            [access] => 4
+        )
+
+    [opcache.jit_prof_threshold] => Array
+        (
+            [global_value] => 0.005
+            [local_value] => 0.005
+            [access] => 7
+        )
+
+    [opcache.lockfile_path] => Array
+        (
+            [global_value] => /tmp
+            [local_value] => /tmp
+            [access] => 4
+        )
+
+    [opcache.log_verbosity_level] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 4
+        )
+
+    [opcache.max_accelerated_files] => Array
+        (
+            [global_value] => 10000
+            [local_value] => 10000
+            [access] => 4
+        )
+
+    [opcache.max_file_size] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 4
+        )
+
+    [opcache.max_wasted_percentage] => Array
+        (
+            [global_value] => 5
+            [local_value] => 5
+            [access] => 4
+        )
+
+    [opcache.memory_consumption] => Array
+        (
+            [global_value] => 128
+            [local_value] => 128
+            [access] => 4
+        )
+
+    [opcache.opt_debug_level] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 4
+        )
+
+    [opcache.optimization_level] => Array
+        (
+            [global_value] => 0x7FFEBFFF
+            [local_value] => 0x7FFEBFFF
+            [access] => 4
+        )
+
+    [opcache.preferred_memory_model] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 4
+        )
+
+    [opcache.preload] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 4
+        )
+
+    [opcache.preload_user] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 4
+        )
+
+    [opcache.protect_memory] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 4
+        )
+
+    [opcache.record_warnings] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 4
+        )
+
+    [opcache.restrict_api] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 4
+        )
+
+    [opcache.revalidate_freq] => Array
+        (
+            [global_value] => 2
+            [local_value] => 2
+            [access] => 7
+        )
+
+    [opcache.revalidate_path] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [opcache.save_comments] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 4
+        )
+
+    [opcache.use_cwd] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 4
+        )
+
+    [opcache.validate_permission] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 4
+        )
+
+    [opcache.validate_root] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 4
+        )
+
+    [opcache.validate_timestamps] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 7
+        )
+
+    [open_basedir] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [openssl.cafile] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 2
+        )
+
+    [openssl.capath] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 2
+        )
+
+    [output_buffering] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 6
+        )
+
+    [output_encoding] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [output_handler] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 6
+        )
+
+    [pcre.backtrack_limit] => Array
+        (
+            [global_value] => 1000000
+            [local_value] => 1000000
+            [access] => 7
+        )
+
+    [pcre.jit] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 7
+        )
+
+    [pcre.recursion_limit] => Array
+        (
+            [global_value] => 100000
+            [local_value] => 100000
+            [access] => 7
+        )
+
+    [pdo_mysql.default_socket] => Array
+        (
+            [global_value] => /var/run/mysqld/mysqld.sock
+            [local_value] => /var/run/mysqld/mysqld.sock
+            [access] => 4
+        )
+
+    [pgsql.allow_persistent] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 4
+        )
+
+    [pgsql.auto_reset_persistent] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 4
+        )
+
+    [pgsql.ignore_notice] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [pgsql.log_notice] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [pgsql.max_links] => Array
+        (
+            [global_value] => -1
+            [local_value] => -1
+            [access] => 4
+        )
+
+    [pgsql.max_persistent] => Array
+        (
+            [global_value] => -1
+            [local_value] => -1
+            [access] => 4
+        )
+
+    [phar.cache_list] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 4
+        )
+
+    [phar.readonly] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 7
+        )
+
+    [phar.require_hash] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 7
+        )
+
+    [post_max_size] => Array
+        (
+            [global_value] => 250M
+            [local_value] => 250M
+            [access] => 6
+        )
+
+    [precision] => Array
+        (
+            [global_value] => 14
+            [local_value] => 14
+            [access] => 7
+        )
+
+    [realpath_cache_size] => Array
+        (
+            [global_value] => 4096K
+            [local_value] => 4096K
+            [access] => 4
+        )
+
+    [realpath_cache_ttl] => Array
+        (
+            [global_value] => 120
+            [local_value] => 120
+            [access] => 4
+        )
+
+    [redis.arrays.algorithm] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [redis.arrays.auth] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [redis.arrays.autorehash] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [redis.arrays.connecttimeout] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [redis.arrays.consistent] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [redis.arrays.distributor] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [redis.arrays.functions] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [redis.arrays.hosts] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [redis.arrays.index] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [redis.arrays.lazyconnect] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [redis.arrays.names] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [redis.arrays.pconnect] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [redis.arrays.previous] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [redis.arrays.readtimeout] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [redis.arrays.retryinterval] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [redis.clusters.auth] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [redis.clusters.cache_slots] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [redis.clusters.persistent] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [redis.clusters.read_timeout] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [redis.clusters.seeds] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [redis.clusters.timeout] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [redis.pconnect.connection_limit] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [redis.pconnect.echo_check_liveness] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 7
+        )
+
+    [redis.pconnect.pool_detect_dirty] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [redis.pconnect.pool_pattern] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [redis.pconnect.pool_poll_timeout] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [redis.pconnect.pooling_enabled] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 7
+        )
+
+    [redis.session.compression] => Array
+        (
+            [global_value] => none
+            [local_value] => none
+            [access] => 7
+        )
+
+    [redis.session.compression_level] => Array
+        (
+            [global_value] => 3
+            [local_value] => 3
+            [access] => 7
+        )
+
+    [redis.session.early_refresh] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [redis.session.lock_expire] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [redis.session.lock_retries] => Array
+        (
+            [global_value] => 100
+            [local_value] => 100
+            [access] => 7
+        )
+
+    [redis.session.lock_wait_time] => Array
+        (
+            [global_value] => 20000
+            [local_value] => 20000
+            [access] => 7
+        )
+
+    [redis.session.locking_enabled] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [register_argc_argv] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 6
+        )
+
+    [report_memleaks] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 7
+        )
+
+    [report_zend_debug] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [request_order] => Array
+        (
+            [global_value] => GP
+            [local_value] => GP
+            [access] => 6
+        )
+
+    [sendmail_from] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [sendmail_path] => Array
+        (
+            [global_value] => /usr/sbin/sendmail -t -i
+            [local_value] => /usr/sbin/sendmail -t -i
+            [access] => 4
+        )
+
+    [serialize_precision] => Array
+        (
+            [global_value] => -1
+            [local_value] => -1
+            [access] => 7
+        )
+
+    [session.auto_start] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 2
+        )
+
+    [session.cache_expire] => Array
+        (
+            [global_value] => 180
+            [local_value] => 180
+            [access] => 7
+        )
+
+    [session.cache_limiter] => Array
+        (
+            [global_value] => nocache
+            [local_value] => nocache
+            [access] => 7
+        )
+
+    [session.cookie_domain] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [session.cookie_httponly] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [session.cookie_lifetime] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [session.cookie_path] => Array
+        (
+            [global_value] => /
+            [local_value] => /
+            [access] => 7
+        )
+
+    [session.cookie_samesite] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [session.cookie_secure] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [session.gc_divisor] => Array
+        (
+            [global_value] => 1000
+            [local_value] => 1000
+            [access] => 7
+        )
+
+    [session.gc_maxlifetime] => Array
+        (
+            [global_value] => 31536000
+            [local_value] => 31536000
+            [access] => 7
+        )
+
+    [session.gc_probability] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [session.lazy_write] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 7
+        )
+
+    [session.name] => Array
+        (
+            [global_value] => PHPSESSID
+            [local_value] => PHPSESSID
+            [access] => 7
+        )
+
+    [session.referer_check] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [session.save_handler] => Array
+        (
+            [global_value] => files
+            [local_value] => files
+            [access] => 7
+        )
+
+    [session.save_path] => Array
+        (
+            [global_value] => /var/lib/php/sessions
+            [local_value] => /var/lib/php/sessions
+            [access] => 7
+        )
+
+    [session.serialize_handler] => Array
+        (
+            [global_value] => php
+            [local_value] => php
+            [access] => 7
+        )
+
+    [session.sid_bits_per_character] => Array
+        (
+            [global_value] => 5
+            [local_value] => 5
+            [access] => 7
+        )
+
+    [session.sid_length] => Array
+        (
+            [global_value] => 26
+            [local_value] => 26
+            [access] => 7
+        )
+
+    [session.trans_sid_hosts] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [session.trans_sid_tags] => Array
+        (
+            [global_value] => a=href,area=href,frame=src,form=
+            [local_value] => a=href,area=href,frame=src,form=
+            [access] => 7
+        )
+
+    [session.upload_progress.cleanup] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 2
+        )
+
+    [session.upload_progress.enabled] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 2
+        )
+
+    [session.upload_progress.freq] => Array
+        (
+            [global_value] => 1%
+            [local_value] => 1%
+            [access] => 2
+        )
+
+    [session.upload_progress.min_freq] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 2
+        )
+
+    [session.upload_progress.name] => Array
+        (
+            [global_value] => PHP_SESSION_UPLOAD_PROGRESS
+            [local_value] => PHP_SESSION_UPLOAD_PROGRESS
+            [access] => 2
+        )
+
+    [session.upload_progress.prefix] => Array
+        (
+            [global_value] => upload_progress_
+            [local_value] => upload_progress_
+            [access] => 2
+        )
+
+    [session.use_cookies] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 7
+        )
+
+    [session.use_only_cookies] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 7
+        )
+
+    [session.use_strict_mode] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [session.use_trans_sid] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [short_open_tag] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 6
+        )
+
+    [SMTP] => Array
+        (
+            [global_value] => localhost
+            [local_value] => localhost
+            [access] => 7
+        )
+
+    [smtp_port] => Array
+        (
+            [global_value] => 25
+            [local_value] => 25
+            [access] => 7
+        )
+
+    [soap.wsdl_cache] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 7
+        )
+
+    [soap.wsdl_cache_dir] => Array
+        (
+            [global_value] => /tmp
+            [local_value] => /tmp
+            [access] => 7
+        )
+
+    [soap.wsdl_cache_enabled] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 7
+        )
+
+    [soap.wsdl_cache_limit] => Array
+        (
+            [global_value] => 5
+            [local_value] => 5
+            [access] => 7
+        )
+
+    [soap.wsdl_cache_ttl] => Array
+        (
+            [global_value] => 86400
+            [local_value] => 86400
+            [access] => 7
+        )
+
+    [sqlite3.defensive] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 1
+        )
+
+    [sqlite3.extension_dir] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 4
+        )
+
+    [sys_temp_dir] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 4
+        )
+
+    [syslog.facility] => Array
+        (
+            [global_value] => LOG_USER
+            [local_value] => LOG_USER
+            [access] => 4
+        )
+
+    [syslog.filter] => Array
+        (
+            [global_value] => no-ctrl
+            [local_value] => no-ctrl
+            [access] => 7
+        )
+
+    [syslog.ident] => Array
+        (
+            [global_value] => php
+            [local_value] => php
+            [access] => 4
+        )
+
+    [unserialize_callback_func] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [unserialize_max_depth] => Array
+        (
+            [global_value] => 4096
+            [local_value] => 4096
+            [access] => 7
+        )
+
+    [upload_max_filesize] => Array
+        (
+            [global_value] => 250M
+            [local_value] => 250M
+            [access] => 6
+        )
+
+    [upload_tmp_dir] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 4
+        )
+
+    [url_rewriter.hosts] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [url_rewriter.tags] => Array
+        (
+            [global_value] => form=
+            [local_value] => form=
+            [access] => 7
+        )
+
+    [user_agent] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [user_dir] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 4
+        )
+
+    [user_ini.cache_ttl] => Array
+        (
+            [global_value] => 300
+            [local_value] => 300
+            [access] => 4
+        )
+
+    [user_ini.filename] => Array
+        (
+            [global_value] => .user.ini
+            [local_value] => .user.ini
+            [access] => 4
+        )
+
+    [variables_order] => Array
+        (
+            [global_value] => GPCS
+            [local_value] => GPCS
+            [access] => 6
+        )
+
+    [xdebug.auto_trace] => Array
+        (
+            [global_value] => This setting has been changed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.auto_trace
+            [local_value] => This setting has been changed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.auto_trace
+            [access] => 7
+        )
+
+    [xdebug.cli_color] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [xdebug.client_discovery_header] => Array
+        (
+            [global_value] => HTTP_X_FORWARDED_FOR,REMOTE_ADDR
+            [local_value] => HTTP_X_FORWARDED_FOR,REMOTE_ADDR
+            [access] => 7
+        )
+
+    [xdebug.client_host] => Array
+        (
+            [global_value] => localhost
+            [local_value] => localhost
+            [access] => 7
+        )
+
+    [xdebug.client_port] => Array
+        (
+            [global_value] => 9003
+            [local_value] => 9003
+            [access] => 7
+        )
+
+    [xdebug.cloud_id] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 4
+        )
+
+    [xdebug.collect_assignments] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [xdebug.collect_includes] => Array
+        (
+            [global_value] => This setting has been removed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#removed-xdebug.collect_includes
+            [local_value] => This setting has been removed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#removed-xdebug.collect_includes
+            [access] => 7
+        )
+
+    [xdebug.collect_params] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 7
+        )
+
+    [xdebug.collect_return] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [xdebug.collect_vars] => Array
+        (
+            [global_value] => This setting has been removed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#removed-xdebug.collect_vars
+            [local_value] => This setting has been removed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#removed-xdebug.collect_vars
+            [access] => 7
+        )
+
+    [xdebug.connect_timeout_ms] => Array
+        (
+            [global_value] => 200
+            [local_value] => 200
+            [access] => 7
+        )
+
+    [xdebug.control_socket] => Array
+        (
+            [global_value] => default
+            [local_value] => default
+            [access] => 7
+        )
+
+    [xdebug.coverage_enable] => Array
+        (
+            [global_value] => This setting has been changed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.coverage_enable
+            [local_value] => This setting has been changed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.coverage_enable
+            [access] => 7
+        )
+
+    [xdebug.default_enable] => Array
+        (
+            [global_value] => This setting has been changed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.default_enable
+            [local_value] => This setting has been changed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.default_enable
+            [access] => 7
+        )
+
+    [xdebug.discover_client_host] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [xdebug.dump.COOKIE] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [xdebug.dump.ENV] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [xdebug.dump.FILES] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [xdebug.dump.GET] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [xdebug.dump.POST] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [xdebug.dump.REQUEST] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [xdebug.dump.SERVER] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [xdebug.dump.SESSION] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [xdebug.dump_globals] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 7
+        )
+
+    [xdebug.dump_once] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 7
+        )
+
+    [xdebug.dump_undefined] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [xdebug.file_link_format] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [xdebug.filename_format] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [xdebug.force_display_errors] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 4
+        )
+
+    [xdebug.force_error_reporting] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 4
+        )
+
+    [xdebug.gc_stats_enable] => Array
+        (
+            [global_value] => This setting has been changed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.gc_stats_enable
+            [local_value] => This setting has been changed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.gc_stats_enable
+            [access] => 7
+        )
+
+    [xdebug.gc_stats_output_dir] => Array
+        (
+            [global_value] => This setting has been changed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.gc_stats_output_dir
+            [local_value] => This setting has been changed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.gc_stats_output_dir
+            [access] => 7
+        )
+
+    [xdebug.gc_stats_output_name] => Array
+        (
+            [global_value] => gcstats.%p
+            [local_value] => gcstats.%p
+            [access] => 6
+        )
+
+    [xdebug.halt_level] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [xdebug.idekey] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [xdebug.log] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [xdebug.log_level] => Array
+        (
+            [global_value] => 7
+            [local_value] => 7
+            [access] => 7
+        )
+
+    [xdebug.max_nesting_level] => Array
+        (
+            [global_value] => 512
+            [local_value] => 512
+            [access] => 7
+        )
+
+    [xdebug.max_stack_frames] => Array
+        (
+            [global_value] => -1
+            [local_value] => -1
+            [access] => 7
+        )
+
+    [xdebug.mode] => Array
+        (
+            [global_value] => develop
+            [local_value] => develop
+            [access] => 4
+        )
+
+    [xdebug.output_dir] => Array
+        (
+            [global_value] => /tmp
+            [local_value] => /tmp
+            [access] => 7
+        )
+
+    [xdebug.overload_var_dump] => Array
+        (
+            [global_value] => This setting has been removed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#removed-xdebug.overload_var_dump
+            [local_value] => This setting has been removed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#removed-xdebug.overload_var_dump
+            [access] => 7
+        )
+
+    [xdebug.profiler_append] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 6
+        )
+
+    [xdebug.profiler_enable] => Array
+        (
+            [global_value] => This setting has been changed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.profiler_enable
+            [local_value] => This setting has been changed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.profiler_enable
+            [access] => 7
+        )
+
+    [xdebug.profiler_enable_trigger] => Array
+        (
+            [global_value] => This setting has been changed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.profiler_enable_trigger
+            [local_value] => This setting has been changed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.profiler_enable_trigger
+            [access] => 7
+        )
+
+    [xdebug.profiler_enable_trigger_value] => Array
+        (
+            [global_value] => This setting has been changed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.profiler_enable_trigger_value
+            [local_value] => This setting has been changed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.profiler_enable_trigger_value
+            [access] => 7
+        )
+
+    [xdebug.profiler_output_dir] => Array
+        (
+            [global_value] => This setting has been changed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.profiler_output_dir
+            [local_value] => This setting has been changed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.profiler_output_dir
+            [access] => 7
+        )
+
+    [xdebug.profiler_output_name] => Array
+        (
+            [global_value] => cachegrind.out.%p
+            [local_value] => cachegrind.out.%p
+            [access] => 6
+        )
+
+    [xdebug.remote_autostart] => Array
+        (
+            [global_value] => This setting has been changed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_autostart
+            [local_value] => This setting has been changed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_autostart
+            [access] => 7
+        )
+
+    [xdebug.remote_connect_back] => Array
+        (
+            [global_value] => This setting has been changed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_connect_back
+            [local_value] => This setting has been changed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_connect_back
+            [access] => 7
+        )
+
+    [xdebug.remote_enable] => Array
+        (
+            [global_value] => This setting has been changed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_enable
+            [local_value] => This setting has been changed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_enable
+            [access] => 7
+        )
+
+    [xdebug.remote_host] => Array
+        (
+            [global_value] => This setting has been changed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_host
+            [local_value] => This setting has been changed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_host
+            [access] => 7
+        )
+
+    [xdebug.remote_log] => Array
+        (
+            [global_value] => This setting has been changed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_log
+            [local_value] => This setting has been changed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_log
+            [access] => 7
+        )
+
+    [xdebug.remote_log_level] => Array
+        (
+            [global_value] => This setting has been changed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_log_level
+            [local_value] => This setting has been changed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_log_level
+            [access] => 7
+        )
+
+    [xdebug.remote_mode] => Array
+        (
+            [global_value] => This setting has been changed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_mode
+            [local_value] => This setting has been changed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_mode
+            [access] => 7
+        )
+
+    [xdebug.remote_port] => Array
+        (
+            [global_value] => This setting has been changed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_port
+            [local_value] => This setting has been changed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_port
+            [access] => 7
+        )
+
+    [xdebug.remote_timeout] => Array
+        (
+            [global_value] => This setting has been changed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_timeout
+            [local_value] => This setting has been changed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_timeout
+            [access] => 7
+        )
+
+    [xdebug.scream] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [xdebug.show_error_trace] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [xdebug.show_exception_trace] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [xdebug.show_local_vars] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [xdebug.show_mem_delta] => Array
+        (
+            [global_value] => This setting has been removed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#removed-xdebug.show_mem_delta
+            [local_value] => This setting has been removed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#removed-xdebug.show_mem_delta
+            [access] => 7
+        )
+
+    [xdebug.start_upon_error] => Array
+        (
+            [global_value] => default
+            [local_value] => default
+            [access] => 6
+        )
+
+    [xdebug.start_with_request] => Array
+        (
+            [global_value] => default
+            [local_value] => default
+            [access] => 6
+        )
+
+    [xdebug.trace_enable_trigger] => Array
+        (
+            [global_value] => This setting has been changed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.trace_enable_trigger
+            [local_value] => This setting has been changed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.trace_enable_trigger
+            [access] => 7
+        )
+
+    [xdebug.trace_enable_trigger_value] => Array
+        (
+            [global_value] => This setting has been changed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.trace_enable_trigger_value
+            [local_value] => This setting has been changed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.trace_enable_trigger_value
+            [access] => 7
+        )
+
+    [xdebug.trace_format] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [xdebug.trace_options] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [xdebug.trace_output_dir] => Array
+        (
+            [global_value] => This setting has been changed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.trace_output_dir
+            [local_value] => This setting has been changed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.trace_output_dir
+            [access] => 7
+        )
+
+    [xdebug.trace_output_name] => Array
+        (
+            [global_value] => trace.%c
+            [local_value] => trace.%c
+            [access] => 7
+        )
+
+    [xdebug.trigger_value] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 6
+        )
+
+    [xdebug.use_compression] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 7
+        )
+
+    [xdebug.var_display_max_children] => Array
+        (
+            [global_value] => 128
+            [local_value] => 128
+            [access] => 7
+        )
+
+    [xdebug.var_display_max_data] => Array
+        (
+            [global_value] => 512
+            [local_value] => 512
+            [access] => 7
+        )
+
+    [xdebug.var_display_max_depth] => Array
+        (
+            [global_value] => 3
+            [local_value] => 3
+            [access] => 7
+        )
+
+    [xmlrpc_error_number] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [xmlrpc_errors] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 4
+        )
+
+    [zend.assertions] => Array
+        (
+            [global_value] => -1
+            [local_value] => -1
+            [access] => 7
+        )
+
+    [zend.detect_unicode] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 7
+        )
+
+    [zend.enable_gc] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 7
+        )
+
+    [zend.exception_ignore_args] => Array
+        (
+            [global_value] => 1
+            [local_value] => 1
+            [access] => 7
+        )
+
+    [zend.exception_string_param_max_len] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 7
+        )
+
+    [zend.multibyte] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 2
+        )
+
+    [zend.script_encoding] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [zend.signal_check] => Array
+        (
+            [global_value] => 0
+            [local_value] => 0
+            [access] => 4
+        )
+
+    [zlib.output_compression] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+    [zlib.output_compression_level] => Array
+        (
+            [global_value] => -1
+            [local_value] => -1
+            [access] => 7
+        )
+
+    [zlib.output_handler] => Array
+        (
+            [global_value] =>
+            [local_value] =>
+            [access] => 7
+        )
+
+)
